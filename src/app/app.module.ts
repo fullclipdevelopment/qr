@@ -13,13 +13,15 @@ import {
 } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CreateQrComponent } from './create-qr/create-qr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    CreateQrComponent
   ],
   imports: [
     BrowserModule,
